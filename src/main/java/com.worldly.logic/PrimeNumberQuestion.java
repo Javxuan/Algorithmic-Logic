@@ -20,16 +20,15 @@ public class PrimeNumberQuestion {
     }
 
     private static boolean isPrime(int number){
-        boolean flag = false;
-        if(number<1){
-            return  flag;
+        boolean flag = true;
+        if(number<2){
+           flag=false;
         } else{
             for(int i=2;i<number;i++){
                 if(number%i==0){
                     flag=false;
                     break;
                 }
-                flag = true;
             }
         }
         return flag;
