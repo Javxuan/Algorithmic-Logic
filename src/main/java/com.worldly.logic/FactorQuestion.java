@@ -24,7 +24,7 @@ public class FactorQuestion {
     private static String  getFactor(int minPrime,int number,StringBuilder sb){
        if(isPrime(minPrime)) {
            if (number == minPrime) {
-               sb.append(number+"="+minPrime);
+               sb.append(minPrime);
            } else {
                if (number % minPrime == 0) {
                    sb.append(minPrime+"*");
@@ -43,7 +43,7 @@ public class FactorQuestion {
 
     private static boolean isPrime(int number){
         boolean flag = true;
-        if(number<2){
+        if(number<2){  //质数 都是大于=2的
             flag=false;
         } else{
             for(int i=2;i<number;i++){
