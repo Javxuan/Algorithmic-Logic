@@ -1,4 +1,4 @@
-package com.ht.report.controller;
+package com.worldly.logic;
 
 /**
  * 题目：利用递归方法求5!。

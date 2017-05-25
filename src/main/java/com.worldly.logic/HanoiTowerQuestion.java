@@ -1,4 +1,4 @@
-package com.ht.report.controller;
+package com.worldly.logic;
 
 /**
  * 汉诺塔问题问题描述：假设有3个分别命名为X、Y和Z的塔座，在塔座X上插有n个直径大小各不相同、按从小到大编号为1,2，...，n的圆盘(如图所示)。

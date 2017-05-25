@@ -1,4 +1,4 @@
-package com.ht.report.controller;
+package com.worldly.logic;
 
 /**
  * 题目：有5个人坐在一起，问第五个人多少岁？他说比第4个人大2岁。
